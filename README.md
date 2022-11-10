@@ -1,18 +1,18 @@
-<h1 align="center"> Image Captioning :camera: :arrow_right: :memo: </h1> 
+<h1 align="center"> Image Captioning </h1> 
  
- ***An encoder-decoder based model to caption images built using PyTorch and deployed using Streamlit. This model uses inceptionV3 as encoder and LSTM layers as decoder. This model is trained on Flickr30k dataset.***
+ ***An encoder-decoder based model to caption images built using PyTorch and deployed using Streamlit. ***
+ 
+ ***This model uses inceptionV3 as encoder and LSTM layers as decoder. This model is trained on Flickr30k dataset.***
 
 ## Demo
- ### Try it yourself [here](https://share.streamlit.io/koushik0901/image-captioning/ui.py)
- <p align="center"> <img src="https://github.com/Koushik0901/Image-Captioning/blob/master/test_examples/surfing.png" width="500" height="320"  /> </p>
-<p align="center"> <b>Prediction: <i>a man in wetsuit is surfing .</i></b>
- 
-<p align="center"> <img src="https://github.com/Koushik0901/Image-Captioning/blob/master/test_examples/dirt_bike.png" width="500" height="320"  /> </p>
-<p align="center"> <b>Prediction: <i>a man in blue helmet is riding a dirt bike on a dirt track .</i></b>
 
-<p align="center"> <img src="https://github.com/Koushik0901/Image-Captioning/blob/master/test_examples/dog.png" width="500" height="320"  /> </p>
-<p align="center"> <b>Prediction: <i>a dog is running on the beach .</i></b>
+ <p align="center"> <img src="https://github.com/Kenolise/Image-Captioning/blob/master/test_examples/pawpaw.jpg" width="500" height="320"  /> </p>
+<p align="center"> <b>Prediction: <i>a boy wailing with hand on head .</i></b>
  
+<p align="center"> <img src="https://github.com/Kenolise/Image-Captioning/blob/master/test_examples/pic.jpg" width="500" height="320"  /> </p>
+<p align="center"> <b>Prediction: <i>a man holding a paper and rejecting a drink offer .</i></b>
+
+
 
 ## Running on native machine
 ### dependencies
