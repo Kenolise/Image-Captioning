@@ -7,7 +7,7 @@ class InceptionEncoder(nn.Module):
     def __init__(self, embed_size, train_CNN=False):
         super(InceptionEncoder, self).__init__()
         self.train_CNN = train_CNN
-        self.inception = models.inception_v3(pretrained=True, aux_logits=False)
+        self.inception = models.inception_v3(pretrained=True, aux_logits=True)
         self.inception.fc = nn.Linear(self.inception.fc.in_features, embed_size)
         self.relu = nn.ReLU()
         self.bn = nn.BatchNorm1d(embed_size, momentum = 0.01)
