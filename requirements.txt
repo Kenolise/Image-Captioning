@@ -1,6 +1,6 @@
 torchvision
 torch
-streamlit
+streamlit==1.11.0
 pillow
 pandas
 spacy
